@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: rgb(0,0,0);
+}
+
+#container {
+    margin: 100px auto;
+    width: 735px;
+    height: 350px;
+    border: 1px solid gray;
+    position: relative;
+    top: 0;
+    background: url('background.jpg');
+}
+
+#content {
+    margin: 60px 0 0 50px;
+    position: relative;
+    width: 400px;
+}
+
+#thumbnails {
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    left: 450px;
+    top: 60px;
+    margin-left: 5px;
+}
+
+#container ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#container ul li {
+    display: inline-block;
+    margin: 0 0 5px 5px;
+}
+
+li img {
+    margin: 0;
+    padding: 0;
+    outline: 5px solid rgba(255,255,255,.0);
+    outline-offset: -5px;
+}
+
+.focuson {
+    outline: 5px solid rgba(245,106,70,.8);
+    outline-offset: -5px;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    -moz-outline-radius: 2px; /* works only in mozilla browsers */
+}
